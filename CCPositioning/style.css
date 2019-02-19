@@ -1,0 +1,42 @@
+header{
+    font-size: 20px;
+    margin-left: 150px;
+
+}
+.content{
+    margin-left: 150px;
+}
+#division3{
+    position: fixed;
+    font-size: 18px;
+    background-color: rgb(185, 183, 183);
+    color: black;
+    padding: 15px;
+  }
+
+  #division1{
+
+    position: relative;
+    font-size: 18px;
+    background-color: rgb(185, 183, 183);
+    color: black;
+    padding: 15px;
+    right: -40%;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+  }
+
+  #division2{
+    z-index: 9999;
+    position: absolute;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    right: 45%;
+    top: 290px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
